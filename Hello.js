@@ -7,3 +7,7 @@ let newarr = arr.map(function(value)
 })
 
 console.log(newarr)
+console.log("hello")
+console.log("hello")
+console.log("hello")
+console.log("hello")
