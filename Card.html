@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiple User Cards</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #f2f2f2;
+      text-align: center;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    input {
+      padding: 10px;
+      margin: 8px;
+      width: 220px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: green;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .card {
+      width: 250px;
+      background: white;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 70px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>User Form</h2>
+
+  <form id="userForm">
+    <input type="text" id="name" placeholder="Enter Name" required><br>
+    <input type="email" id="email" placeholder="Enter Email" required><br>
+    <input type="text" id="city" placeholder="Enter City" required><br>
+    <button type="submit">Add User</button>
+  </form>
+
+  <div class="container" id="cardContainer"></div>
+
+
+</body>
+</html>
